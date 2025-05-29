@@ -1,11 +1,13 @@
-// import react from "react";
+import React from "react";
+import ResponsiveAppBar from './components/ResponsiveAppBar';
+
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
+       <ResponsiveAppBar />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
